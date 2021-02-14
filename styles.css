@@ -1,0 +1,89 @@
+h1{
+  text-align: center;
+  font-size: 5rem;
+  color: #222831;
+  text-shadow: 5px 0 #aaaaaa;
+  font-family: 'Roboto Slab', serif;
+}
+
+h2{
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'algerian', serif;
+}
+
+body{
+  background-color: #fdf1d6;
+}
+
+.dice{
+  display: inline-block;
+  text-align: center;
+  margin: 1.5rem 5rem 2rem;
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+p{
+  font-size: 1.7rem;
+  color: #c39e5c;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.image{
+  width: 80%;
+}
+
+footer{
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #314e52;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.btn{
+  border-radius: 0.5rem;
+  color: #fdf1d6;
+  font-size: 20px;
+  padding: 5px 10px 5px;
+  background-image: linear-gradient(to right, #da723c , #91091e);
+  border: none;
+  box-shadow: 2px 0 #314e52;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to left, #da723c , #91091e);
+}
+
+.btn:focus{
+  outline: none;
+}
+
+hr{
+  width: 50%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width:900px) {
+
+  h1{
+    font-size: 3.5rem;
+  }
+
+  .dice{
+    margin: 1.5rem 3rem 2rem;
+  }
+
+  .image{
+    width: 60%;
+  }
+}
