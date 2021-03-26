@@ -19,13 +19,13 @@ document.querySelectorAll("img")[0].setAttribute("src",image1);
 document.querySelectorAll("img")[1].setAttribute("src",image2);
 
 if(n1>n2){
-  document.querySelector("h2").innerHTML = "Winner: "+name1+" 🥳🥳";
+  document.querySelector("h2").innerHTML = "Winner: "+name1;
     document.querySelector("h2").style.color= "#845ec2";
 }else if (n1===n2) {
-  document.querySelector("h2").innerHTML = "DRAW😬😬";
+  document.querySelector("h2").innerHTML = "DRAW";
   document.querySelector("h2").style.color= "#5b5b5b";
 }else{
-  document.querySelector("h2").innerHTML = "Winner: "+name2+" 🥳🥳";
+  document.querySelector("h2").innerHTML = "Winner: ";
   document.querySelector("h2").style.color= "#ff5e78";
 }
 
