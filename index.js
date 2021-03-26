@@ -25,7 +25,7 @@ if(n1>n2){
   document.querySelector("h2").innerHTML = "DRAW";
   document.querySelector("h2").style.color= "#5b5b5b";
 }else{
-  document.querySelector("h2").innerHTML = "Winner: ";
+  document.querySelector("h2").innerHTML = "Winner: "+name2;
   document.querySelector("h2").style.color= "#ff5e78";
 }
 
